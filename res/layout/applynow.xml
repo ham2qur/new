@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simply send a text and INFRA will call back you!" 
+        android:gravity="center"
+        android:textColor="#ffffff" 
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+   
+            <EditText 
+                android:layout_margin="10dp"
+                android:id="@+id/ApplynowNameText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Write your name here!"
+                android:background="#ffffff"
+                />
+
+            <EditText
+                android:layout_margin="10dp" 
+                android:id="@+id/ApplynowlocationText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff" 
+                android:hint="Write your location here!"/>
+            
+            
+            
+   
+</LinearLayout>

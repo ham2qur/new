@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#484848</color>
+    <color name="background2">#ffffff</color>
+    <color name="ActionBarOrange">#f37521</color>
+    <color name="androidGreen">#a0fd27</color>
+    <color name="SkyBlue">#57d9ff</color>
+    <color name="carrotRed">#ff6b57</color>
+    <color name="lemonyellow">#fff957</color>
+    <color name="Pinkpather">#f155ff</color>
+    <color name="OrangeOrange">#ffbb63</color>
+    <color name="DarkishPink">#ff1488</color>
+    <color name="ChilliRed">#ff0000</color>
+    <color name="orangeDark">#ff6600</color>
+    <color name="PeaGreen">#33cc66</color>
+     <color name="DarkBlue">#6600cc</color>
+      <color name="TurtleGreen">#33cc99</color>
+</resources>

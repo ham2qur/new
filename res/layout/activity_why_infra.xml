@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WhyInfraActivity"
+    android:background="#000000" >
+
+<ScrollView android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" android:textStyle="bold"
+            android:text="BRIEF HISTORY"
+            
+            />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="The leading Training institute in Pakistan Commanding the Computer Educational Circles, has a total commitment, to provide the best and the latest technique in this fast and dynamic era of Computer Technology."			
+            />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=""			
+            />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Infra Professional Training Centre develop and prepare the students in line with the needs of quality education in a highly advanced environment, As a result, our students are fully competent, confident and charged to meet the challenges of the industry and carve their own career paths in the extremely competitive market of today."			
+            />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=""			
+            />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ACHIEVEMENTS"			
+            />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="The leading professional institute in field of Computer and Mobile Phone. We have the honour of introducing Mobile Phone Repairing Course first time in Pakistan Due to our 100% Practical Professional Education. Thousand of our students have started their professional jobs in various areas of city and all over Pakistan also Overseas and neighbour countries of Pakistan like Iran, Afghanistan and Middle East. You can see newspaper for details about our New Certificate holder Professionals who have started their professional life."			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=""			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="CLASS ROOMS"			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Our designed spacious classrooms provide a pleasant and conducive environment for Practical learning."			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=""			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="THE LABS"			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="The labs are equipped with Twenty Five of Computers with state of- the art networking. Information system and other technologies, to provide students with a complete knowledge of the latest system and application software. The student will get the opportunity to work with Microsoft Windows and Networking."			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=""			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="THE LIBRARY"			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="The library is equipped with the latest audio and visual equipments. Specially designed and well equipped with Course materials, Textbooks, References, Manuals and Various magazines."			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=""			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="MOBILE SOFTWARE LIBRARY"			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="We are conducting the following practical course. Our Mobile Software library is fully equipped with the related Software material and we have a large collection of Mobile Phone Flashing and Downloading Software of almost all Mobile Phones like Nokia , Samsung , SonyEricsson , Motorolla , LG , Siemens etc."			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=""			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=""			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=""			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=""			
+            /><TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=""			
+            />
+        
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

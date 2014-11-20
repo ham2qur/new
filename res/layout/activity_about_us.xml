@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AboutUsActivity" 
+    android:background="#000000">
+	
+    
+	<ScrollView android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LLAboutus">
+    
+     <TextView
+     android:layout_width="fill_parent" android:layout_height="wrap_content"
+     android:textColor="#ffffff"
+     android:text="This app is for the students who face difficulty in choosing perfect and their career making courses, which would be better for their shine and dreamed career. Many students also don't know about the good and reputated institutes in Karachi, which are providing fantastic services for their required course. After basic and theoritical teaching, many students don't know about the
+ practical working of the profession which they want to acquired. So to provide
+ assistance and guidance to the students, Infra take an initiative in the form
+ of this app, which delievers all the knowledge of the courses that are offered
+ by this educational institute. We hope that students will find this app as their
+ career mentorer and counsiler, and that's the main slogan of our institute i.e
+ to provide oppurtunities to the students to be able to start their career in good
+ and perfect way."
+     />
+     <TextView
+     android:layout_width="fill_parent" android:layout_height="wrap_content"
+     android:textColor="#ffffff"
+     android:textAlignment="center"
+     android:text=""
+     />
+     <TextView
+     android:layout_width="fill_parent" android:layout_height="wrap_content"
+     android:textColor="#ffffff"
+     android:text="Allrights are reserved @DevON Solutions-2013, Karachi"
+     />
+     
+     <TextView
+     android:layout_width="fill_parent" android:layout_height="wrap_content"
+     android:textColor="#ffffff"
+     android:text=""
+     />
+     
+     <TextView
+     android:layout_width="fill_parent" android:layout_height="wrap_content"
+     android:textColor="#ffffff"
+     android:text=""
+     />
+        
+        
+    </LinearLayout>
+    
+</ScrollView>
+
+</RelativeLayout>

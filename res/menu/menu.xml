@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/MenuApplyNow"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Apply Now"/>
+    
+    <item
+        android:id="@+id/MenuShare"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Share it"/>
+    
+    <item
+        android:id="@+id/Menulike"
+        android:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="Like Us"/>
+    
+    <item
+        android:id="@+id/Menurate"
+        android:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="Rate Us"/>
+    
+    <item
+        android:id="@+id/MenuHelp"
+        android:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="Help"/>
+    
+    <item
+        android:id="@+id/MenuAbout"
+        android:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="About"/>
+
+</menu>

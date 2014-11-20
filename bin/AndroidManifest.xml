@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.infracentre"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+	
+    <uses-permission android:name="android.permission.INTERNET" />
+ 	<uses-permission android:name="android.permission.SEND_SMS"/>
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock" >
+        <activity
+            android:name="com.example.infracentre.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.infracentre.splashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity"
+            android:label="@string/title_activity_course"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.GalleryActivity"
+            android:label="@string/title_activity_activity_gallery"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.WhyInfraActivity"
+            android:label="@string/title_activity_why_infra" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.ContactUsActivity"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.LocationsActivity"
+            android:label="@string/title_activity_locations" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_AndroidApp"
+            android:label="@string/title_activity_course_activity__android_app" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_AutoCAD"
+            android:label="@string/title_activity_course_activity__auto_cad" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_Forex"
+            android:label="@string/title_activity_course_activity__forex" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_StockX"
+            android:label="@string/title_activity_course_activity__stock_x" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_MobileRepair"
+            android:label="@string/title_activity_course_activity__mobile_repair" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_SmartPhone"
+            android:label="@string/title_activity_course_activity__smart_phone" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_ComputerRepairing"
+            android:label="@string/title_activity_course_activity__computer_repairing" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_LaptopRepairing"
+            android:label="@string/title_activity_course_activity__laptop_repairing" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_InroToIT"
+            android:label="@string/title_activity_course_activity__inro_to_it" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_GraphicsDesigning"
+            android:label="@string/title_activity_course_activity__graphics_designing" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_UPSRepairing"
+            android:label="@string/title_activity_course_activity__upsrepairing" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_3dAnimation"
+            android:label="@string/title_activity_course_activity_3d_animation" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.LocationsActivity_Gulshan"
+            android:label="@string/title_activity_locations_activity__gulshan" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.LocationsActivity_Saddar"
+            android:label="@string/title_activity_locations_activity__saddar" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.LocationsActivity_DHA"
+            android:label="@string/title_activity_locations_activity__dh" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_ComputerizedAcounting"
+            android:label="@string/title_activity_course_activity__computerized_acounting" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_MsOffice"
+            android:label="@string/title_activity_course_activity__ms_office" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_PrintMedia"
+            android:label="@string/title_activity_course_activity__print_media" >
+        </activity>
+        <activity android:name="com.example.infracentre.FullImageActivity" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.DashboardActivity"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+
+        <!-- <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCiW4VTTesJVOYlqLyoWp02Yup6xUo_QHc" />
+ 		s-->
+        <activity
+            android:name="com.example.infracentre.CourseActivity_Adit"
+            android:label="@string/title_activity_course_activity__adit" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_Advmobile"
+            android:label="@string/title_activity_course_activity__advmobile" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_cctv"
+            android:label="@string/title_activity_course_activity_cctv" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_ecommerce"
+            android:label="@string/title_activity_course_activity_ecommerce" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_seo"
+            android:label="@string/title_activity_course_activity_seo" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_webdevelop"
+            android:label="@string/title_activity_course_activity_webdevelop" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_wordpress"
+            android:label="@string/title_activity_course_activity_wordpress" >
+        </activity>
+        <activity
+            android:name="com.example.infracentre.CourseActivity_cit"
+            android:label="@string/title_activity_course_activity_cit" >
+        </activity>
+    </application>
+
+</manifest>

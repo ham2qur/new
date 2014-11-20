@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ContactUsActivity"
+    android:background="#000000" >
+
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff" android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="UAN 111-773-256"
+        android:gravity="center" />
+        
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff" android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="INFRA Defence" />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="77C,Defence Phase II, Ext Main Korangi Road, Akhter Colony Bus Stop, Karachi" />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Phone: 021-35382555, 35382556, 35382557" />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Primary Contact:Syed Jawaid Ali ,Muhammad Ammad" />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="" />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff" android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="INFRA Gulshan" />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="FL-3/9, Near NIPA, Gulshan-e-Iqbal," />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Block 5, Main Rashid Minhas Road, Karachi" />
+        
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Phone: 021-34827774, 34827775, 34827777" />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="" />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="" />
+        
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff" android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="INFRA Saddar" />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="2nd Floor, Odeon Centre, Regal Chowk Saddar, Karachi" />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Phone: 021-32776777, 32766667, 32767778"
+         />
+        
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="" />
+        <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="" />
+        
+        </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>
